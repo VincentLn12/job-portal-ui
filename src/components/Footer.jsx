@@ -146,10 +146,15 @@ const Footer = () => {
                 <span className="relative z-10">Privacy Policy</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
               </a>
-              <a className="group relative hover:text-white transition-colors duration-300">
-                <span className="relative z-10">Terms of Service</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
-              </a>
+              <Tooltip content="By using this portal you agree to provide accurate information, use the service lawfully, and respect other users. Employers must post genuine job openings only.">
+                <a
+                  tabIndex={0}
+                  className="group relative hover:text-white focus:text-white outline-none transition-colors duration-300"
+                >
+                  <span className="relative z-10">Terms of Service</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                </a>
+              </Tooltip>
               <Tooltip content="We use essential cookies to keep you signed in and remember your preferences. We don't use advertising cookies.">
                 <a
                   tabIndex={0}
