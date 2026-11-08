@@ -151,7 +151,7 @@ const Footer = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-300 -inset-2"></div>
                 </a>
               </Tooltip>
-              <Tooltip content="By using this portal you agree to provide accurate information and to use the service lawfully.">
+              <Tooltip content="By using this portal you agree to provide accurate information, use the service lawfully, and respect other users. Employers must post genuine job openings only.">
                 <a
                   tabIndex={0}
                   className="group relative hover:text-white focus:text-white outline-none transition-colors duration-300"
